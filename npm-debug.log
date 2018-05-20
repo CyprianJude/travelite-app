@@ -1,0 +1,1192 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ 'C:\\Users\\Cyprian\\WebstormProjects\\travelite-app',
+5 verbose install   [ '@alrra/travis-scripts',
+5 verbose install     'apache-server-configs',
+5 verbose install     'archiver',
+5 verbose install     'babel-core',
+5 verbose install     'babel-preset-env',
+5 verbose install     'babel-register',
+5 verbose install     'del',
+5 verbose install     'eslint',
+5 verbose install     'eslint-config-recommended',
+5 verbose install     'eslint-plugin-mocha',
+5 verbose install     'glob',
+5 verbose install     'gulp',
+5 verbose install     'gulp-autoprefixer',
+5 verbose install     'gulp-eslint',
+5 verbose install     'gulp-header',
+5 verbose install     'gulp-jscs',
+5 verbose install     'gulp-load-plugins',
+5 verbose install     'gulp-rename',
+5 verbose install     'gulp-replace',
+5 verbose install     'jquery',
+5 verbose install     'mocha',
+5 verbose install     'modernizr',
+5 verbose install     'normalize.css',
+5 verbose install     'run-sequence',
+5 verbose install     'ssri',
+5 verbose install     'strip-json-comments',
+5 verbose install     'travis-after-all' ] ]
+6 info preinstall html5-boilerplate@6.1.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'archiver@^2.1.1', null ]
+9 verbose cache add name=undefined spec="archiver@^2.1.1" args=["archiver@^2.1.1",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'archiver@^2.1.1',
+10 verbose parsed url   path: 'archiver@^2.1.1',
+10 verbose parsed url   href: 'archiver@^2.1.1' }
+11 verbose cache add name="archiver" spec="^2.1.1" args=["archiver","^2.1.1"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '^2.1.1',
+12 verbose parsed url   path: '^2.1.1',
+12 verbose parsed url   href: '^2.1.1' }
+13 verbose addNamed [ 'archiver', '^2.1.1' ]
+14 verbose addNamed [ null, null ]
+15 verbose cache add [ 'gulp-replace@^0.6.1', null ]
+16 verbose cache add name=undefined spec="gulp-replace@^0.6.1" args=["gulp-replace@^0.6.1",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'gulp-replace@^0.6.1',
+17 verbose parsed url   path: 'gulp-replace@^0.6.1',
+17 verbose parsed url   href: 'gulp-replace@^0.6.1' }
+18 verbose cache add name="gulp-replace" spec="^0.6.1" args=["gulp-replace","^0.6.1"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '^0.6.1',
+19 verbose parsed url   path: '^0.6.1',
+19 verbose parsed url   href: '^0.6.1' }
+20 verbose addNamed [ 'gulp-replace', '^0.6.1' ]
+21 verbose addNamed [ null, null ]
+22 verbose cache add [ 'babel-core@^6.26.3', null ]
+23 verbose cache add name=undefined spec="babel-core@^6.26.3" args=["babel-core@^6.26.3",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'babel-core@^6.26.3',
+24 verbose parsed url   path: 'babel-core@^6.26.3',
+24 verbose parsed url   href: 'babel-core@^6.26.3' }
+25 verbose cache add name="babel-core" spec="^6.26.3" args=["babel-core","^6.26.3"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '^6.26.3',
+26 verbose parsed url   path: '^6.26.3',
+26 verbose parsed url   href: '^6.26.3' }
+27 verbose addNamed [ 'babel-core', '^6.26.3' ]
+28 verbose addNamed [ null, null ]
+29 verbose cache add [ 'jquery@3.3.1', null ]
+30 verbose cache add name=undefined spec="jquery@3.3.1" args=["jquery@3.3.1",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'jquery@3.3.1',
+31 verbose parsed url   path: 'jquery@3.3.1',
+31 verbose parsed url   href: 'jquery@3.3.1' }
+32 verbose cache add name="jquery" spec="3.3.1" args=["jquery","3.3.1"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '3.3.1',
+33 verbose parsed url   path: '3.3.1',
+33 verbose parsed url   href: '3.3.1' }
+34 verbose addNamed [ 'jquery', '3.3.1' ]
+35 verbose addNamed [ '3.3.1', '3.3.1' ]
+36 verbose cache add [ 'babel-preset-env@^1.6.1', null ]
+37 verbose cache add name=undefined spec="babel-preset-env@^1.6.1" args=["babel-preset-env@^1.6.1",null]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: 'babel-preset-env@^1.6.1',
+38 verbose parsed url   path: 'babel-preset-env@^1.6.1',
+38 verbose parsed url   href: 'babel-preset-env@^1.6.1' }
+39 verbose cache add name="babel-preset-env" spec="^1.6.1" args=["babel-preset-env","^1.6.1"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '^1.6.1',
+40 verbose parsed url   path: '^1.6.1',
+40 verbose parsed url   href: '^1.6.1' }
+41 verbose addNamed [ 'babel-preset-env', '^1.6.1' ]
+42 verbose addNamed [ null, null ]
+43 verbose cache add [ 'mocha@^5.1.1', null ]
+44 verbose cache add name=undefined spec="mocha@^5.1.1" args=["mocha@^5.1.1",null]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'mocha@^5.1.1',
+45 verbose parsed url   path: 'mocha@^5.1.1',
+45 verbose parsed url   href: 'mocha@^5.1.1' }
+46 verbose cache add name="mocha" spec="^5.1.1" args=["mocha","^5.1.1"]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: '^5.1.1',
+47 verbose parsed url   path: '^5.1.1',
+47 verbose parsed url   href: '^5.1.1' }
+48 verbose addNamed [ 'mocha', '^5.1.1' ]
+49 verbose addNamed [ null, null ]
+50 verbose cache add [ 'babel-register@^6.26.0', null ]
+51 verbose cache add name=undefined spec="babel-register@^6.26.0" args=["babel-register@^6.26.0",null]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: 'babel-register@^6.26.0',
+52 verbose parsed url   path: 'babel-register@^6.26.0',
+52 verbose parsed url   href: 'babel-register@^6.26.0' }
+53 verbose cache add name="babel-register" spec="^6.26.0" args=["babel-register","^6.26.0"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '^6.26.0',
+54 verbose parsed url   path: '^6.26.0',
+54 verbose parsed url   href: '^6.26.0' }
+55 verbose addNamed [ 'babel-register', '^6.26.0' ]
+56 verbose addNamed [ null, null ]
+57 verbose cache add [ 'modernizr@3.6.0', null ]
+58 verbose cache add name=undefined spec="modernizr@3.6.0" args=["modernizr@3.6.0",null]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: 'modernizr@3.6.0',
+59 verbose parsed url   path: 'modernizr@3.6.0',
+59 verbose parsed url   href: 'modernizr@3.6.0' }
+60 verbose cache add name="modernizr" spec="3.6.0" args=["modernizr","3.6.0"]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: '3.6.0',
+61 verbose parsed url   path: '3.6.0',
+61 verbose parsed url   href: '3.6.0' }
+62 verbose addNamed [ 'modernizr', '3.6.0' ]
+63 verbose addNamed [ '3.6.0', '3.6.0' ]
+64 verbose cache add [ 'normalize.css@8.0.0', null ]
+65 verbose cache add name=undefined spec="normalize.css@8.0.0" args=["normalize.css@8.0.0",null]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: 'normalize.css@8.0.0',
+66 verbose parsed url   path: 'normalize.css@8.0.0',
+66 verbose parsed url   href: 'normalize.css@8.0.0' }
+67 verbose cache add name="normalize.css" spec="8.0.0" args=["normalize.css","8.0.0"]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: '8.0.0',
+68 verbose parsed url   path: '8.0.0',
+68 verbose parsed url   href: '8.0.0' }
+69 verbose addNamed [ 'normalize.css', '8.0.0' ]
+70 verbose addNamed [ '8.0.0', '8.0.0' ]
+71 verbose cache add [ 'del@^3.0.0', null ]
+72 verbose cache add name=undefined spec="del@^3.0.0" args=["del@^3.0.0",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'del@^3.0.0',
+73 verbose parsed url   path: 'del@^3.0.0',
+73 verbose parsed url   href: 'del@^3.0.0' }
+74 verbose cache add name="del" spec="^3.0.0" args=["del","^3.0.0"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '^3.0.0',
+75 verbose parsed url   path: '^3.0.0',
+75 verbose parsed url   href: '^3.0.0' }
+76 verbose addNamed [ 'del', '^3.0.0' ]
+77 verbose addNamed [ null, null ]
+78 verbose cache add [ 'run-sequence@^2.2.1', null ]
+79 verbose cache add name=undefined spec="run-sequence@^2.2.1" args=["run-sequence@^2.2.1",null]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'run-sequence@^2.2.1',
+80 verbose parsed url   path: 'run-sequence@^2.2.1',
+80 verbose parsed url   href: 'run-sequence@^2.2.1' }
+81 verbose cache add name="run-sequence" spec="^2.2.1" args=["run-sequence","^2.2.1"]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: '^2.2.1',
+82 verbose parsed url   path: '^2.2.1',
+82 verbose parsed url   href: '^2.2.1' }
+83 verbose addNamed [ 'run-sequence', '^2.2.1' ]
+84 verbose addNamed [ null, null ]
+85 verbose cache add [ 'eslint@^4.19.1', null ]
+86 verbose cache add name=undefined spec="eslint@^4.19.1" args=["eslint@^4.19.1",null]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: 'eslint@^4.19.1',
+87 verbose parsed url   path: 'eslint@^4.19.1',
+87 verbose parsed url   href: 'eslint@^4.19.1' }
+88 verbose cache add name="eslint" spec="^4.19.1" args=["eslint","^4.19.1"]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: '^4.19.1',
+89 verbose parsed url   path: '^4.19.1',
+89 verbose parsed url   href: '^4.19.1' }
+90 verbose addNamed [ 'eslint', '^4.19.1' ]
+91 verbose addNamed [ null, null ]
+92 verbose cache add [ 'ssri@^6.0.0', null ]
+93 verbose cache add name=undefined spec="ssri@^6.0.0" args=["ssri@^6.0.0",null]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: 'ssri@^6.0.0',
+94 verbose parsed url   path: 'ssri@^6.0.0',
+94 verbose parsed url   href: 'ssri@^6.0.0' }
+95 verbose cache add name="ssri" spec="^6.0.0" args=["ssri","^6.0.0"]
+96 verbose parsed url { protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: '^6.0.0',
+96 verbose parsed url   path: '^6.0.0',
+96 verbose parsed url   href: '^6.0.0' }
+97 verbose addNamed [ 'ssri', '^6.0.0' ]
+98 verbose addNamed [ null, null ]
+99 verbose cache add [ 'eslint-config-recommended@^2.0.0', null ]
+100 verbose cache add name=undefined spec="eslint-config-recommended@^2.0.0" args=["eslint-config-recommended@^2.0.0",null]
+101 verbose parsed url { protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: 'eslint-config-recommended@^2.0.0',
+101 verbose parsed url   path: 'eslint-config-recommended@^2.0.0',
+101 verbose parsed url   href: 'eslint-config-recommended@^2.0.0' }
+102 verbose cache add name="eslint-config-recommended" spec="^2.0.0" args=["eslint-config-recommended","^2.0.0"]
+103 verbose parsed url { protocol: null,
+103 verbose parsed url   slashes: null,
+103 verbose parsed url   auth: null,
+103 verbose parsed url   host: null,
+103 verbose parsed url   port: null,
+103 verbose parsed url   hostname: null,
+103 verbose parsed url   hash: null,
+103 verbose parsed url   search: null,
+103 verbose parsed url   query: null,
+103 verbose parsed url   pathname: '^2.0.0',
+103 verbose parsed url   path: '^2.0.0',
+103 verbose parsed url   href: '^2.0.0' }
+104 verbose addNamed [ 'eslint-config-recommended', '^2.0.0' ]
+105 verbose addNamed [ null, null ]
+106 verbose cache add [ 'strip-json-comments@^2.0.1', null ]
+107 verbose cache add name=undefined spec="strip-json-comments@^2.0.1" args=["strip-json-comments@^2.0.1",null]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: 'strip-json-comments@^2.0.1',
+108 verbose parsed url   path: 'strip-json-comments@^2.0.1',
+108 verbose parsed url   href: 'strip-json-comments@^2.0.1' }
+109 verbose cache add name="strip-json-comments" spec="^2.0.1" args=["strip-json-comments","^2.0.1"]
+110 verbose parsed url { protocol: null,
+110 verbose parsed url   slashes: null,
+110 verbose parsed url   auth: null,
+110 verbose parsed url   host: null,
+110 verbose parsed url   port: null,
+110 verbose parsed url   hostname: null,
+110 verbose parsed url   hash: null,
+110 verbose parsed url   search: null,
+110 verbose parsed url   query: null,
+110 verbose parsed url   pathname: '^2.0.1',
+110 verbose parsed url   path: '^2.0.1',
+110 verbose parsed url   href: '^2.0.1' }
+111 verbose addNamed [ 'strip-json-comments', '^2.0.1' ]
+112 verbose addNamed [ null, null ]
+113 verbose cache add [ 'eslint-plugin-mocha@^5.0.0', null ]
+114 verbose cache add name=undefined spec="eslint-plugin-mocha@^5.0.0" args=["eslint-plugin-mocha@^5.0.0",null]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: 'eslint-plugin-mocha@^5.0.0',
+115 verbose parsed url   path: 'eslint-plugin-mocha@^5.0.0',
+115 verbose parsed url   href: 'eslint-plugin-mocha@^5.0.0' }
+116 verbose cache add name="eslint-plugin-mocha" spec="^5.0.0" args=["eslint-plugin-mocha","^5.0.0"]
+117 verbose parsed url { protocol: null,
+117 verbose parsed url   slashes: null,
+117 verbose parsed url   auth: null,
+117 verbose parsed url   host: null,
+117 verbose parsed url   port: null,
+117 verbose parsed url   hostname: null,
+117 verbose parsed url   hash: null,
+117 verbose parsed url   search: null,
+117 verbose parsed url   query: null,
+117 verbose parsed url   pathname: '^5.0.0',
+117 verbose parsed url   path: '^5.0.0',
+117 verbose parsed url   href: '^5.0.0' }
+118 verbose addNamed [ 'eslint-plugin-mocha', '^5.0.0' ]
+119 verbose addNamed [ null, null ]
+120 verbose cache add [ 'travis-after-all@^1.4.5', null ]
+121 verbose cache add name=undefined spec="travis-after-all@^1.4.5" args=["travis-after-all@^1.4.5",null]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: 'travis-after-all@^1.4.5',
+122 verbose parsed url   path: 'travis-after-all@^1.4.5',
+122 verbose parsed url   href: 'travis-after-all@^1.4.5' }
+123 verbose cache add name="travis-after-all" spec="^1.4.5" args=["travis-after-all","^1.4.5"]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: '^1.4.5',
+124 verbose parsed url   path: '^1.4.5',
+124 verbose parsed url   href: '^1.4.5' }
+125 verbose addNamed [ 'travis-after-all', '^1.4.5' ]
+126 verbose addNamed [ null, null ]
+127 verbose cache add [ 'glob@^7.1.2', null ]
+128 verbose cache add name=undefined spec="glob@^7.1.2" args=["glob@^7.1.2",null]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: 'glob@^7.1.2',
+129 verbose parsed url   path: 'glob@^7.1.2',
+129 verbose parsed url   href: 'glob@^7.1.2' }
+130 verbose cache add name="glob" spec="^7.1.2" args=["glob","^7.1.2"]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: '^7.1.2',
+131 verbose parsed url   path: '^7.1.2',
+131 verbose parsed url   href: '^7.1.2' }
+132 verbose addNamed [ 'glob', '^7.1.2' ]
+133 verbose addNamed [ null, null ]
+134 verbose cache add [ 'gulp@^3.9.1', null ]
+135 verbose cache add name=undefined spec="gulp@^3.9.1" args=["gulp@^3.9.1",null]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'gulp@^3.9.1',
+136 verbose parsed url   path: 'gulp@^3.9.1',
+136 verbose parsed url   href: 'gulp@^3.9.1' }
+137 verbose cache add name="gulp" spec="^3.9.1" args=["gulp","^3.9.1"]
+138 verbose parsed url { protocol: null,
+138 verbose parsed url   slashes: null,
+138 verbose parsed url   auth: null,
+138 verbose parsed url   host: null,
+138 verbose parsed url   port: null,
+138 verbose parsed url   hostname: null,
+138 verbose parsed url   hash: null,
+138 verbose parsed url   search: null,
+138 verbose parsed url   query: null,
+138 verbose parsed url   pathname: '^3.9.1',
+138 verbose parsed url   path: '^3.9.1',
+138 verbose parsed url   href: '^3.9.1' }
+139 verbose addNamed [ 'gulp', '^3.9.1' ]
+140 verbose addNamed [ null, null ]
+141 verbose cache add [ 'gulp-autoprefixer@^5.0.0', null ]
+142 verbose cache add name=undefined spec="gulp-autoprefixer@^5.0.0" args=["gulp-autoprefixer@^5.0.0",null]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: 'gulp-autoprefixer@^5.0.0',
+143 verbose parsed url   path: 'gulp-autoprefixer@^5.0.0',
+143 verbose parsed url   href: 'gulp-autoprefixer@^5.0.0' }
+144 verbose cache add name="gulp-autoprefixer" spec="^5.0.0" args=["gulp-autoprefixer","^5.0.0"]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: '^5.0.0',
+145 verbose parsed url   path: '^5.0.0',
+145 verbose parsed url   href: '^5.0.0' }
+146 verbose addNamed [ 'gulp-autoprefixer', '^5.0.0' ]
+147 verbose addNamed [ null, null ]
+148 verbose cache add [ 'gulp-eslint@^4.0.2', null ]
+149 verbose cache add name=undefined spec="gulp-eslint@^4.0.2" args=["gulp-eslint@^4.0.2",null]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: 'gulp-eslint@^4.0.2',
+150 verbose parsed url   path: 'gulp-eslint@^4.0.2',
+150 verbose parsed url   href: 'gulp-eslint@^4.0.2' }
+151 verbose cache add name="gulp-eslint" spec="^4.0.2" args=["gulp-eslint","^4.0.2"]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: '^4.0.2',
+152 verbose parsed url   path: '^4.0.2',
+152 verbose parsed url   href: '^4.0.2' }
+153 verbose addNamed [ 'gulp-eslint', '^4.0.2' ]
+154 verbose addNamed [ null, null ]
+155 verbose cache add [ 'gulp-header@^2.0.5', null ]
+156 verbose cache add name=undefined spec="gulp-header@^2.0.5" args=["gulp-header@^2.0.5",null]
+157 verbose parsed url { protocol: null,
+157 verbose parsed url   slashes: null,
+157 verbose parsed url   auth: null,
+157 verbose parsed url   host: null,
+157 verbose parsed url   port: null,
+157 verbose parsed url   hostname: null,
+157 verbose parsed url   hash: null,
+157 verbose parsed url   search: null,
+157 verbose parsed url   query: null,
+157 verbose parsed url   pathname: 'gulp-header@^2.0.5',
+157 verbose parsed url   path: 'gulp-header@^2.0.5',
+157 verbose parsed url   href: 'gulp-header@^2.0.5' }
+158 verbose cache add name="gulp-header" spec="^2.0.5" args=["gulp-header","^2.0.5"]
+159 verbose parsed url { protocol: null,
+159 verbose parsed url   slashes: null,
+159 verbose parsed url   auth: null,
+159 verbose parsed url   host: null,
+159 verbose parsed url   port: null,
+159 verbose parsed url   hostname: null,
+159 verbose parsed url   hash: null,
+159 verbose parsed url   search: null,
+159 verbose parsed url   query: null,
+159 verbose parsed url   pathname: '^2.0.5',
+159 verbose parsed url   path: '^2.0.5',
+159 verbose parsed url   href: '^2.0.5' }
+160 verbose addNamed [ 'gulp-header', '^2.0.5' ]
+161 verbose addNamed [ null, null ]
+162 verbose cache add [ 'gulp-jscs@^4.1.0', null ]
+163 verbose cache add name=undefined spec="gulp-jscs@^4.1.0" args=["gulp-jscs@^4.1.0",null]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: 'gulp-jscs@^4.1.0',
+164 verbose parsed url   path: 'gulp-jscs@^4.1.0',
+164 verbose parsed url   href: 'gulp-jscs@^4.1.0' }
+165 verbose cache add name="gulp-jscs" spec="^4.1.0" args=["gulp-jscs","^4.1.0"]
+166 verbose parsed url { protocol: null,
+166 verbose parsed url   slashes: null,
+166 verbose parsed url   auth: null,
+166 verbose parsed url   host: null,
+166 verbose parsed url   port: null,
+166 verbose parsed url   hostname: null,
+166 verbose parsed url   hash: null,
+166 verbose parsed url   search: null,
+166 verbose parsed url   query: null,
+166 verbose parsed url   pathname: '^4.1.0',
+166 verbose parsed url   path: '^4.1.0',
+166 verbose parsed url   href: '^4.1.0' }
+167 verbose addNamed [ 'gulp-jscs', '^4.1.0' ]
+168 verbose addNamed [ null, null ]
+169 verbose cache add [ 'gulp-load-plugins@^1.5.0', null ]
+170 verbose cache add name=undefined spec="gulp-load-plugins@^1.5.0" args=["gulp-load-plugins@^1.5.0",null]
+171 verbose parsed url { protocol: null,
+171 verbose parsed url   slashes: null,
+171 verbose parsed url   auth: null,
+171 verbose parsed url   host: null,
+171 verbose parsed url   port: null,
+171 verbose parsed url   hostname: null,
+171 verbose parsed url   hash: null,
+171 verbose parsed url   search: null,
+171 verbose parsed url   query: null,
+171 verbose parsed url   pathname: 'gulp-load-plugins@^1.5.0',
+171 verbose parsed url   path: 'gulp-load-plugins@^1.5.0',
+171 verbose parsed url   href: 'gulp-load-plugins@^1.5.0' }
+172 verbose cache add name="gulp-load-plugins" spec="^1.5.0" args=["gulp-load-plugins","^1.5.0"]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: '^1.5.0',
+173 verbose parsed url   path: '^1.5.0',
+173 verbose parsed url   href: '^1.5.0' }
+174 verbose addNamed [ 'gulp-load-plugins', '^1.5.0' ]
+175 verbose addNamed [ null, null ]
+176 verbose cache add [ 'gulp-rename@^1.2.2', null ]
+177 verbose cache add name=undefined spec="gulp-rename@^1.2.2" args=["gulp-rename@^1.2.2",null]
+178 verbose parsed url { protocol: null,
+178 verbose parsed url   slashes: null,
+178 verbose parsed url   auth: null,
+178 verbose parsed url   host: null,
+178 verbose parsed url   port: null,
+178 verbose parsed url   hostname: null,
+178 verbose parsed url   hash: null,
+178 verbose parsed url   search: null,
+178 verbose parsed url   query: null,
+178 verbose parsed url   pathname: 'gulp-rename@^1.2.2',
+178 verbose parsed url   path: 'gulp-rename@^1.2.2',
+178 verbose parsed url   href: 'gulp-rename@^1.2.2' }
+179 verbose cache add name="gulp-rename" spec="^1.2.2" args=["gulp-rename","^1.2.2"]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: '^1.2.2',
+180 verbose parsed url   path: '^1.2.2',
+180 verbose parsed url   href: '^1.2.2' }
+181 verbose addNamed [ 'gulp-rename', '^1.2.2' ]
+182 verbose addNamed [ null, null ]
+183 verbose cache add [ '@alrra/travis-scripts@^3.0.1', null ]
+184 verbose cache add name=undefined spec="@alrra/travis-scripts@^3.0.1" args=["@alrra/travis-scripts@^3.0.1",null]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: '@alrra/travis-scripts@^3.0.1',
+185 verbose parsed url   path: '@alrra/travis-scripts@^3.0.1',
+185 verbose parsed url   href: '@alrra/travis-scripts@^3.0.1' }
+186 verbose cache add name="" spec="alrra/travis-scripts@^3.0.1" args=["","alrra/travis-scripts@^3.0.1"]
+187 verbose parsed url { protocol: null,
+187 verbose parsed url   slashes: null,
+187 verbose parsed url   auth: null,
+187 verbose parsed url   host: null,
+187 verbose parsed url   port: null,
+187 verbose parsed url   hostname: null,
+187 verbose parsed url   hash: null,
+187 verbose parsed url   search: null,
+187 verbose parsed url   query: null,
+187 verbose parsed url   pathname: 'alrra/travis-scripts@^3.0.1',
+187 verbose parsed url   path: 'alrra/travis-scripts@^3.0.1',
+187 verbose parsed url   href: 'alrra/travis-scripts@^3.0.1' }
+188 verbose cache add name="alrra/travis-scripts" spec="^3.0.1" args=["alrra/travis-scripts","^3.0.1"]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: '^3.0.1',
+189 verbose parsed url   path: '^3.0.1',
+189 verbose parsed url   href: '^3.0.1' }
+190 verbose addNamed [ 'alrra/travis-scripts', '^3.0.1' ]
+191 verbose addNamed [ null, null ]
+192 verbose cache add [ 'apache-server-configs@^3.0.0', null ]
+193 verbose cache add name=undefined spec="apache-server-configs@^3.0.0" args=["apache-server-configs@^3.0.0",null]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: 'apache-server-configs@^3.0.0',
+194 verbose parsed url   path: 'apache-server-configs@^3.0.0',
+194 verbose parsed url   href: 'apache-server-configs@^3.0.0' }
+195 verbose cache add name="apache-server-configs" spec="^3.0.0" args=["apache-server-configs","^3.0.0"]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: '^3.0.0',
+196 verbose parsed url   path: '^3.0.0',
+196 verbose parsed url   href: '^3.0.0' }
+197 verbose addNamed [ 'apache-server-configs', '^3.0.0' ]
+198 verbose addNamed [ null, null ]
+199 silly lockFile 80490298-archiver-2-1-1 archiver@^2.1.1
+200 verbose lock archiver@^2.1.1 C:\Users\Cyprian\AppData\Roaming\npm-cache\80490298-archiver-2-1-1.lock
+201 silly lockFile cafe9ef0-babel-core-6-26-3 babel-core@^6.26.3
+202 verbose lock babel-core@^6.26.3 C:\Users\Cyprian\AppData\Roaming\npm-cache\cafe9ef0-babel-core-6-26-3.lock
+203 silly lockFile 11ca4891-gulp-replace-0-6-1 gulp-replace@^0.6.1
+204 verbose lock gulp-replace@^0.6.1 C:\Users\Cyprian\AppData\Roaming\npm-cache\11ca4891-gulp-replace-0-6-1.lock
+205 silly lockFile 00c8ef37-babel-preset-env-1-6-1 babel-preset-env@^1.6.1
+206 verbose lock babel-preset-env@^1.6.1 C:\Users\Cyprian\AppData\Roaming\npm-cache\00c8ef37-babel-preset-env-1-6-1.lock
+207 silly lockFile 3df9e473-jquery-3-3-1 jquery@3.3.1
+208 verbose lock jquery@3.3.1 C:\Users\Cyprian\AppData\Roaming\npm-cache\3df9e473-jquery-3-3-1.lock
+209 silly lockFile f01d50eb-mocha-5-1-1 mocha@^5.1.1
+210 verbose lock mocha@^5.1.1 C:\Users\Cyprian\AppData\Roaming\npm-cache\f01d50eb-mocha-5-1-1.lock
+211 silly lockFile 90b21fa5-normalize-css-8-0-0 normalize.css@8.0.0
+212 verbose lock normalize.css@8.0.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\90b21fa5-normalize-css-8-0-0.lock
+213 silly lockFile 23ec4e43-del-3-0-0 del@^3.0.0
+214 verbose lock del@^3.0.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\23ec4e43-del-3-0-0.lock
+215 silly lockFile e2dda127-babel-register-6-26-0 babel-register@^6.26.0
+216 verbose lock babel-register@^6.26.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\e2dda127-babel-register-6-26-0.lock
+217 silly lockFile 710de9e3-run-sequence-2-2-1 run-sequence@^2.2.1
+218 verbose lock run-sequence@^2.2.1 C:\Users\Cyprian\AppData\Roaming\npm-cache\710de9e3-run-sequence-2-2-1.lock
+219 silly lockFile a346fc15-eslint-4-19-1 eslint@^4.19.1
+220 verbose lock eslint@^4.19.1 C:\Users\Cyprian\AppData\Roaming\npm-cache\a346fc15-eslint-4-19-1.lock
+221 silly lockFile e2a87b92-eslint-config-recommended-2-0-0 eslint-config-recommended@^2.0.0
+222 verbose lock eslint-config-recommended@^2.0.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\e2a87b92-eslint-config-recommended-2-0-0.lock
+223 silly lockFile a09cde4c-ssri-6-0-0 ssri@^6.0.0
+224 verbose lock ssri@^6.0.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\a09cde4c-ssri-6-0-0.lock
+225 silly lockFile a614edec-strip-json-comments-2-0-1 strip-json-comments@^2.0.1
+226 verbose lock strip-json-comments@^2.0.1 C:\Users\Cyprian\AppData\Roaming\npm-cache\a614edec-strip-json-comments-2-0-1.lock
+227 silly lockFile 06a4eaea-eslint-plugin-mocha-5-0-0 eslint-plugin-mocha@^5.0.0
+228 verbose lock eslint-plugin-mocha@^5.0.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\06a4eaea-eslint-plugin-mocha-5-0-0.lock
+229 silly lockFile 67f0a483-travis-after-all-1-4-5 travis-after-all@^1.4.5
+230 verbose lock travis-after-all@^1.4.5 C:\Users\Cyprian\AppData\Roaming\npm-cache\67f0a483-travis-after-all-1-4-5.lock
+231 silly lockFile 3294cc5b-glob-7-1-2 glob@^7.1.2
+232 verbose lock glob@^7.1.2 C:\Users\Cyprian\AppData\Roaming\npm-cache\3294cc5b-glob-7-1-2.lock
+233 silly lockFile e5c114fc-gulp-3-9-1 gulp@^3.9.1
+234 verbose lock gulp@^3.9.1 C:\Users\Cyprian\AppData\Roaming\npm-cache\e5c114fc-gulp-3-9-1.lock
+235 silly lockFile b5afa4cf-gulp-autoprefixer-5-0-0 gulp-autoprefixer@^5.0.0
+236 verbose lock gulp-autoprefixer@^5.0.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\b5afa4cf-gulp-autoprefixer-5-0-0.lock
+237 silly lockFile 5ed8bd05-gulp-eslint-4-0-2 gulp-eslint@^4.0.2
+238 verbose lock gulp-eslint@^4.0.2 C:\Users\Cyprian\AppData\Roaming\npm-cache\5ed8bd05-gulp-eslint-4-0-2.lock
+239 silly lockFile 53407df1-gulp-jscs-4-1-0 gulp-jscs@^4.1.0
+240 verbose lock gulp-jscs@^4.1.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\53407df1-gulp-jscs-4-1-0.lock
+241 silly lockFile b22b31d7-gulp-header-2-0-5 gulp-header@^2.0.5
+242 verbose lock gulp-header@^2.0.5 C:\Users\Cyprian\AppData\Roaming\npm-cache\b22b31d7-gulp-header-2-0-5.lock
+243 silly lockFile a6ad3499-gulp-load-plugins-1-5-0 gulp-load-plugins@^1.5.0
+244 verbose lock gulp-load-plugins@^1.5.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\a6ad3499-gulp-load-plugins-1-5-0.lock
+245 silly lockFile 1035ba1c-gulp-rename-1-2-2 gulp-rename@^1.2.2
+246 verbose lock gulp-rename@^1.2.2 C:\Users\Cyprian\AppData\Roaming\npm-cache\1035ba1c-gulp-rename-1-2-2.lock
+247 silly lockFile 4d9ab933-apache-server-configs-3-0-0 apache-server-configs@^3.0.0
+248 verbose lock apache-server-configs@^3.0.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\4d9ab933-apache-server-configs-3-0-0.lock
+249 silly lockFile bd0c1453-alrra-travis-scripts-3-0-1 alrra/travis-scripts@^3.0.1
+250 verbose lock alrra/travis-scripts@^3.0.1 C:\Users\Cyprian\AppData\Roaming\npm-cache\bd0c1453-alrra-travis-scripts-3-0-1.lock
+251 silly lockFile 879a26e5-modernizr-3-6-0 modernizr@3.6.0
+252 verbose lock modernizr@3.6.0 C:\Users\Cyprian\AppData\Roaming\npm-cache\879a26e5-modernizr-3-6-0.lock
+253 silly addNameRange { name: 'gulp-replace', range: '*', hasData: false }
+254 silly addNameRange { name: 'archiver', range: '*', hasData: false }
+255 silly addNameRange { name: 'babel-core', range: '*', hasData: false }
+256 silly addNameRange { name: 'babel-preset-env', range: '*', hasData: false }
+257 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+258 silly addNameRange { name: 'babel-register', range: '*', hasData: false }
+259 silly addNameRange { name: 'del', range: '*', hasData: false }
+260 silly addNameRange { name: 'run-sequence', range: '*', hasData: false }
+261 silly addNameRange { name: 'eslint', range: '*', hasData: false }
+262 silly addNameRange { name: 'ssri', range: '*', hasData: false }
+263 silly addNameRange { name: 'strip-json-comments', range: '*', hasData: false }
+264 silly addNameRange { name: 'eslint-plugin-mocha', range: '*', hasData: false }
+265 silly addNameRange { name: 'eslint-config-recommended', range: '*', hasData: false }
+266 silly addNameRange { name: 'glob', range: '*', hasData: false }
+267 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+268 silly addNameRange { name: 'gulp-eslint', range: '*', hasData: false }
+269 silly addNameRange { name: 'gulp-autoprefixer', range: '*', hasData: false }
+270 silly addNameRange { name: 'travis-after-all', range: '*', hasData: false }
+271 silly addNameRange { name: 'gulp-jscs', range: '*', hasData: false }
+272 verbose url raw gulp-replace
+273 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-replace' ]
+274 verbose url resolved https://registry.npmjs.org/gulp-replace
+275 info trying registry request attempt 1 at 21:28:25
+276 http GET https://registry.npmjs.org/gulp-replace
+277 silly addNameRange { name: 'alrra/travis-scripts', range: '*', hasData: false }
+278 verbose url raw babel-core
+279 verbose url resolving [ 'https://registry.npmjs.org/', './babel-core' ]
+280 verbose url resolved https://registry.npmjs.org/babel-core
+281 info trying registry request attempt 1 at 21:28:25
+282 http GET https://registry.npmjs.org/babel-core
+283 verbose url raw archiver
+284 verbose url resolving [ 'https://registry.npmjs.org/', './archiver' ]
+285 verbose url resolved https://registry.npmjs.org/archiver
+286 info trying registry request attempt 1 at 21:28:25
+287 http GET https://registry.npmjs.org/archiver
+288 silly addNameRange { name: 'apache-server-configs', range: '*', hasData: false }
+289 silly addNameRange { name: 'gulp-header', range: '*', hasData: false }
+290 verbose url raw babel-preset-env
+291 verbose url resolving [ 'https://registry.npmjs.org/', './babel-preset-env' ]
+292 verbose url resolved https://registry.npmjs.org/babel-preset-env
+293 info trying registry request attempt 1 at 21:28:25
+294 http GET https://registry.npmjs.org/babel-preset-env
+295 silly addNameRange { name: 'gulp-load-plugins', range: '*', hasData: false }
+296 verbose url raw babel-register
+297 verbose url resolving [ 'https://registry.npmjs.org/', './babel-register' ]
+298 verbose url resolved https://registry.npmjs.org/babel-register
+299 info trying registry request attempt 1 at 21:28:25
+300 http GET https://registry.npmjs.org/babel-register
+301 silly addNameRange { name: 'gulp-rename', range: '*', hasData: false }
+302 verbose url raw mocha
+303 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+304 verbose url resolved https://registry.npmjs.org/mocha
+305 info trying registry request attempt 1 at 21:28:25
+306 http GET https://registry.npmjs.org/mocha
+307 verbose url raw normalize.css/8.0.0
+308 verbose url resolving [ 'https://registry.npmjs.org/', './normalize.css/8.0.0' ]
+309 verbose url resolved https://registry.npmjs.org/normalize.css/8.0.0
+310 info trying registry request attempt 1 at 21:28:25
+311 http GET https://registry.npmjs.org/normalize.css/8.0.0
+312 verbose url raw del
+313 verbose url resolving [ 'https://registry.npmjs.org/', './del' ]
+314 verbose url resolved https://registry.npmjs.org/del
+315 info trying registry request attempt 1 at 21:28:25
+316 http GET https://registry.npmjs.org/del
+317 verbose url raw run-sequence
+318 verbose url resolving [ 'https://registry.npmjs.org/', './run-sequence' ]
+319 verbose url resolved https://registry.npmjs.org/run-sequence
+320 info trying registry request attempt 1 at 21:28:25
+321 http GET https://registry.npmjs.org/run-sequence
+322 verbose url raw jquery/3.3.1
+323 verbose url resolving [ 'https://registry.npmjs.org/', './jquery/3.3.1' ]
+324 verbose url resolved https://registry.npmjs.org/jquery/3.3.1
+325 info trying registry request attempt 1 at 21:28:25
+326 http GET https://registry.npmjs.org/jquery/3.3.1
+327 verbose url raw eslint
+328 verbose url resolving [ 'https://registry.npmjs.org/', './eslint' ]
+329 verbose url resolved https://registry.npmjs.org/eslint
+330 info trying registry request attempt 1 at 21:28:25
+331 http GET https://registry.npmjs.org/eslint
+332 verbose url raw ssri
+333 verbose url resolving [ 'https://registry.npmjs.org/', './ssri' ]
+334 verbose url resolved https://registry.npmjs.org/ssri
+335 info trying registry request attempt 1 at 21:28:25
+336 http GET https://registry.npmjs.org/ssri
+337 verbose url raw strip-json-comments
+338 verbose url resolving [ 'https://registry.npmjs.org/', './strip-json-comments' ]
+339 verbose url resolved https://registry.npmjs.org/strip-json-comments
+340 info trying registry request attempt 1 at 21:28:25
+341 http GET https://registry.npmjs.org/strip-json-comments
+342 verbose url raw eslint-plugin-mocha
+343 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-plugin-mocha' ]
+344 verbose url resolved https://registry.npmjs.org/eslint-plugin-mocha
+345 info trying registry request attempt 1 at 21:28:25
+346 http GET https://registry.npmjs.org/eslint-plugin-mocha
+347 verbose url raw eslint-config-recommended
+348 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-config-recommended' ]
+349 verbose url resolved https://registry.npmjs.org/eslint-config-recommended
+350 info trying registry request attempt 1 at 21:28:25
+351 http GET https://registry.npmjs.org/eslint-config-recommended
+352 verbose url raw glob
+353 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+354 verbose url resolved https://registry.npmjs.org/glob
+355 info trying registry request attempt 1 at 21:28:25
+356 http GET https://registry.npmjs.org/glob
+357 verbose url raw gulp
+358 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+359 verbose url resolved https://registry.npmjs.org/gulp
+360 info trying registry request attempt 1 at 21:28:25
+361 http GET https://registry.npmjs.org/gulp
+362 verbose url raw gulp-eslint
+363 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-eslint' ]
+364 verbose url resolved https://registry.npmjs.org/gulp-eslint
+365 info trying registry request attempt 1 at 21:28:25
+366 http GET https://registry.npmjs.org/gulp-eslint
+367 verbose url raw gulp-autoprefixer
+368 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-autoprefixer' ]
+369 verbose url resolved https://registry.npmjs.org/gulp-autoprefixer
+370 info trying registry request attempt 1 at 21:28:25
+371 http GET https://registry.npmjs.org/gulp-autoprefixer
+372 verbose url raw travis-after-all
+373 verbose url resolving [ 'https://registry.npmjs.org/', './travis-after-all' ]
+374 verbose url resolved https://registry.npmjs.org/travis-after-all
+375 info trying registry request attempt 1 at 21:28:25
+376 http GET https://registry.npmjs.org/travis-after-all
+377 verbose url raw gulp-jscs
+378 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-jscs' ]
+379 verbose url resolved https://registry.npmjs.org/gulp-jscs
+380 info trying registry request attempt 1 at 21:28:25
+381 http GET https://registry.npmjs.org/gulp-jscs
+382 verbose url raw modernizr/3.6.0
+383 verbose url resolving [ 'https://registry.npmjs.org/', './modernizr/3.6.0' ]
+384 verbose url resolved https://registry.npmjs.org/modernizr/3.6.0
+385 info trying registry request attempt 1 at 21:28:25
+386 http GET https://registry.npmjs.org/modernizr/3.6.0
+387 verbose url raw alrra/travis-scripts
+388 verbose url resolving [ 'https://registry.npmjs.org/', './alrra/travis-scripts' ]
+389 verbose url resolved https://registry.npmjs.org/alrra/travis-scripts
+390 info trying registry request attempt 1 at 21:28:25
+391 http GET https://registry.npmjs.org/alrra/travis-scripts
+392 verbose url raw apache-server-configs
+393 verbose url resolving [ 'https://registry.npmjs.org/', './apache-server-configs' ]
+394 verbose url resolved https://registry.npmjs.org/apache-server-configs
+395 info trying registry request attempt 1 at 21:28:25
+396 http GET https://registry.npmjs.org/apache-server-configs
+397 verbose url raw gulp-header
+398 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-header' ]
+399 verbose url resolved https://registry.npmjs.org/gulp-header
+400 info trying registry request attempt 1 at 21:28:25
+401 http GET https://registry.npmjs.org/gulp-header
+402 verbose url raw gulp-load-plugins
+403 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-load-plugins' ]
+404 verbose url resolved https://registry.npmjs.org/gulp-load-plugins
+405 info trying registry request attempt 1 at 21:28:25
+406 http GET https://registry.npmjs.org/gulp-load-plugins
+407 verbose url raw gulp-rename
+408 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rename' ]
+409 verbose url resolved https://registry.npmjs.org/gulp-rename
+410 info trying registry request attempt 1 at 21:28:25
+411 http GET https://registry.npmjs.org/gulp-rename
+412 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+413 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+414 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+415 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+416 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+417 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+418 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+419 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+420 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+421 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+422 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+423 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+424 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+425 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+426 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+427 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+428 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+429 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+430 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+431 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+432 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+433 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+434 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+435 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+436 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+437 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+438 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+439 info trying registry request attempt 2 at 21:28:36
+440 http GET https://registry.npmjs.org/babel-preset-env
+441 info trying registry request attempt 2 at 21:28:36
+442 http GET https://registry.npmjs.org/babel-register
+443 info trying registry request attempt 2 at 21:28:36
+444 http GET https://registry.npmjs.org/gulp-replace
+445 info trying registry request attempt 2 at 21:28:36
+446 http GET https://registry.npmjs.org/babel-core
+447 info trying registry request attempt 2 at 21:28:37
+448 http GET https://registry.npmjs.org/archiver
+449 info trying registry request attempt 2 at 21:28:37
+450 http GET https://registry.npmjs.org/mocha
+451 info trying registry request attempt 2 at 21:28:37
+452 http GET https://registry.npmjs.org/del
+453 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+454 info trying registry request attempt 2 at 21:28:37
+455 http GET https://registry.npmjs.org/run-sequence
+456 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+457 info trying registry request attempt 2 at 21:28:38
+458 http GET https://registry.npmjs.org/jquery/3.3.1
+459 info trying registry request attempt 2 at 21:28:38
+460 http GET https://registry.npmjs.org/eslint
+461 info trying registry request attempt 2 at 21:28:38
+462 http GET https://registry.npmjs.org/normalize.css/8.0.0
+463 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+464 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+465 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+466 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+467 info trying registry request attempt 2 at 21:28:39
+468 http GET https://registry.npmjs.org/eslint-plugin-mocha
+469 info trying registry request attempt 2 at 21:28:39
+470 http GET https://registry.npmjs.org/strip-json-comments
+471 info trying registry request attempt 2 at 21:28:39
+472 http GET https://registry.npmjs.org/eslint-config-recommended
+473 info trying registry request attempt 2 at 21:28:39
+474 http GET https://registry.npmjs.org/glob
+475 info trying registry request attempt 2 at 21:28:39
+476 http GET https://registry.npmjs.org/ssri
+477 info trying registry request attempt 2 at 21:28:40
+478 http GET https://registry.npmjs.org/gulp-eslint
+479 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+480 info trying registry request attempt 2 at 21:28:40
+481 http GET https://registry.npmjs.org/gulp-autoprefixer
+482 info trying registry request attempt 2 at 21:28:40
+483 http GET https://registry.npmjs.org/travis-after-all
+484 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+485 info trying registry request attempt 2 at 21:28:40
+486 http GET https://registry.npmjs.org/gulp-jscs
+487 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+488 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+489 info trying registry request attempt 2 at 21:28:41
+490 http GET https://registry.npmjs.org/gulp
+491 info trying registry request attempt 2 at 21:28:41
+492 http GET https://registry.npmjs.org/modernizr/3.6.0
+493 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+494 info trying registry request attempt 2 at 21:28:41
+495 http GET https://registry.npmjs.org/apache-server-configs
+496 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+497 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+498 info trying registry request attempt 2 at 21:28:41
+499 http GET https://registry.npmjs.org/gulp-header
+500 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+501 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+502 info trying registry request attempt 2 at 21:28:42
+503 http GET https://registry.npmjs.org/gulp-rename
+504 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+505 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+506 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+507 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+508 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+509 info trying registry request attempt 2 at 21:28:44
+510 http GET https://registry.npmjs.org/gulp-load-plugins
+511 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+512 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+513 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+514 info trying registry request attempt 2 at 21:28:45
+515 http GET https://registry.npmjs.org/alrra/travis-scripts
+516 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+517 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+518 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+519 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+520 info trying registry request attempt 3 at 21:29:37
+521 http GET https://registry.npmjs.org/babel-preset-env
+522 info trying registry request attempt 3 at 21:29:37
+523 http GET https://registry.npmjs.org/babel-core
+524 info trying registry request attempt 3 at 21:29:38
+525 http GET https://registry.npmjs.org/mocha
+526 info trying registry request attempt 3 at 21:29:38
+527 http GET https://registry.npmjs.org/del
+528 info trying registry request attempt 3 at 21:29:38
+529 http GET https://registry.npmjs.org/babel-register
+530 info trying registry request attempt 3 at 21:29:38
+531 http GET https://registry.npmjs.org/archiver
+532 silly lockFile f01d50eb-mocha-5-1-1 mocha@^5.1.1
+533 silly lockFile f01d50eb-mocha-5-1-1 mocha@^5.1.1
+534 error Error: CERT_UNTRUSTED
+534 error     at SecurePair.<anonymous> (tls.js:1349:32)
+534 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+534 error     at SecurePair.maybeInitFinished (tls.js:962:10)
+534 error     at CleartextStream.read [as _read] (tls.js:463:15)
+534 error     at CleartextStream.Readable.read (_stream_readable.js:320:10)
+534 error     at EncryptedStream.write [as _write] (tls.js:366:25)
+534 error     at doWrite (_stream_writable.js:219:10)
+534 error     at writeOrBuffer (_stream_writable.js:209:5)
+534 error     at EncryptedStream.Writable.write (_stream_writable.js:180:11)
+534 error     at write (_stream_readable.js:573:24)
+534 error     at flow (_stream_readable.js:582:7)
+534 error     at Socket.pipeOnReadable (_stream_readable.js:614:5)
+535 error If you need help, you may report this log at:
+535 error     <http://github.com/isaacs/npm/issues>
+535 error or email it to:
+535 error     <npm-@googlegroups.com>
+536 error System Windows_NT 6.2.9200
+537 error command "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--scripts-prepend-node-path=auto"
+538 error cwd C:\Users\Cyprian\WebstormProjects\travelite-app
+539 error node -v v0.10.13
+540 error npm -v 1.3.2
+541 verbose exit [ 1, true ]
